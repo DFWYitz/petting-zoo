@@ -30,7 +30,7 @@ console.log (sum);
 
 //create a function called getAverage
 //getAverage takes in an array
-const getAverage = () => {
+const getAverage = (numbers) => {
   //find the total of all numbers
   const sum = numbers.reduce((accumulator, currentNumber) => {
     return accumulator + currentNumber;
